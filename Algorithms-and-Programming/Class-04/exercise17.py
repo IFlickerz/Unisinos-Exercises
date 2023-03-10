@@ -7,19 +7,19 @@ if ano >= 0 and ano <= 2022:
         if dia >= 1 and dia <= 31:
             if(mes == 2) and (dia <= 29) and (ano % 4 == 0):
                 print("Data correta!")
-            elif (mes == 2) and (dia > 28):
+            elif (mes == 2) and (dia >= 28):
                 print("Dia informado para Fevereiro deve ser entre 1 e 28 (ou 29 em anos bissextos)")
             else: 
-                if (mes == 4) and (dia > 30):
+                if (mes == 4) and (dia >= 30):
                     print("Dia informado para Abril deve ser entre 1 e 30")
                 else:
-                    if (mes == 6) and (dia > 30):
+                    if (mes == 6) and (dia >= 30):
                         print("Dia informado para Junho deve ser entre 1 e 30")
                     else:
-                        if (mes == 9) and (dia > 30):
+                        if (mes == 9) and (dia >= 30):
                             print("Dia informado para Setembro deve ser entre 1 e 30")
                         else:
-                            if (mes == 11) and (dia > 30):
+                            if (mes == 11) and (dia >= 30):
                                 print("Dia informado para Novembro deve ser entre 1 e 30")            
                             else:
                                 print("Data correta!")
